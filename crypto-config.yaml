@@ -1,0 +1,20 @@
+##### Orderer for acme
+OrdererOrgs:
+  - Name: Orderer
+    Domain: acme.com
+    #EnableNodeOUs: true
+    Specs:
+      - Hostname: orderer
+      
+#### Peers for acme
+PeerOrgs:
+  # Peer configuration for ACME
+  - Name: acme
+    Domain: acme.com
+    #EnableNodeOUs: true
+    Specs:
+      - Hostname: devpeer
+        CommonName: devpeer
+    Users:
+      Count: 1
+

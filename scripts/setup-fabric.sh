@@ -19,7 +19,7 @@ function install_fabric {
     echo "======= Copying the binaries to /usr/local/bin===="
     cp ./bin/*    /usr/local/bin
 
-    rm -rf config
+    rm -rf config 2> /dev/null
     rm -rf bin
 }
 

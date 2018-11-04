@@ -21,6 +21,8 @@ configtxgen -profile AcmeOrdererGenesis -channelID ordererchannel -outputBlock a
 
 Launch orderer
 export ORDERER_FILELEDGER_LOCATION=$HOME/orderer/ledger
+orderer
+
 
 Create the channel
 

@@ -13,6 +13,7 @@ Please refer to my blog available at
 
 http://www.ACloudFan.com/hlf-native-install-tut
 
+Youtube: https://youtu.be/99H7FcfwmS8
 
 Based on the video courses published by Raj
 ===========================================
